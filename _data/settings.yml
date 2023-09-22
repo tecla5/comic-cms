@@ -1,0 +1,6 @@
+# Site settings
+# YAML cheat sheet: https://quickref.me/yaml
+
+title: "Comic CMS"
+description: "Comic CMS based in Eleventy blog with Sveltia CMS, for deployment to Netlify or github"
+url: "https://eleventy-sveltia-cms-starter.netlify.app"
