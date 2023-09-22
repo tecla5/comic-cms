@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@11ty/eleventy':
-    specifier: ^2.0.0-beta.3
-    version: 2.0.0-beta.3
+    specifier: ^2.0.1
+    version: 2.0.1
   '@11ty/eleventy-img':
     specifier: ^3.1.0
     version: 3.1.0
@@ -102,14 +102,15 @@ packages:
       normalize-path: 3.0.0
     dev: true
 
-  /@11ty/eleventy@2.0.0-beta.3:
-    resolution: {integrity: sha512-MGbvIbOn+P021U8E8hCM/QmaWPkTzfEdKVN8UGyLE8fI2J2hElgM/n6o28//+H/mw/4yPtlrYBtgiTHzsPkCNg==}
+  /@11ty/eleventy@2.0.1:
+    resolution: {integrity: sha512-t8XVUbCJByhVEa1RzO0zS2QzbL3wPY8ot1yUw9noqiSHxJWUwv6jiwm1/MZDPTYtkZH2ZHvdQIRQ5/SjG9XmLw==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@11ty/dependency-tree': 2.0.1
       '@11ty/eleventy-dev-server': 1.0.4
       '@11ty/eleventy-utils': 1.0.2
+      '@11ty/lodash-custom': 4.17.21
       '@iarna/toml': 2.2.5
       '@sindresorhus/slugify': 1.1.2
       bcp-47-normalize: 1.1.1
@@ -127,10 +128,7 @@ packages:
       iso-639-1: 2.1.15
       kleur: 4.1.5
       liquidjs: 10.9.2
-      lodash.chunk: 4.2.0
-      lodash.get: 4.4.2
-      lodash.set: 4.3.2
-      luxon: 3.2.1
+      luxon: 3.4.3
       markdown-it: 13.0.1
       micromatch: 4.0.5
       minimist: 1.2.8
@@ -151,6 +149,11 @@ packages:
       - bufferutil
       - supports-color
       - utf-8-validate
+    dev: true
+
+  /@11ty/lodash-custom@4.17.21:
+    resolution: {integrity: sha512-Mqt6im1xpb1Ykn3nbcCovWXK3ggywRJa+IXIdoz4wIIK+cvozADH63lexcuPpGS/gJ6/m2JxyyXDyupkMr5DHw==}
+    engines: {node: '>=14'}
     dev: true
 
   /@babel/helper-string-parser@7.22.5:
@@ -1073,20 +1076,8 @@ packages:
     resolution: {integrity: sha512-+dAZZ2mM+/m+vY9ezfoueVvrgnHIGi5FvgSymbIgJOFwiznWyA59mav95L+Mc6xPtL3s9gm5eNTlNtxJLbNM1g==}
     dev: true
 
-  /lodash.chunk@4.2.0:
-    resolution: {integrity: sha512-ZzydJKfUHJwHa+hF5X66zLFCBrWn5GeF28OHEr4WVWtNDXlQ/IjWKPBiikqKo2ne0+v6JgCgJ0GzJp8k8bHC7w==}
-    dev: true
-
   /lodash.deburr@4.1.0:
     resolution: {integrity: sha512-m/M1U1f3ddMCs6Hq2tAsYThTBDaAKFDX3dwDo97GEYzamXi9SqUpjWi/Rrj/gf3X2n8ktwgZrlP1z6E3v/IExQ==}
-    dev: true
-
-  /lodash.get@4.4.2:
-    resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
-    dev: true
-
-  /lodash.set@4.3.2:
-    resolution: {integrity: sha512-4hNPN5jlm/N/HLMCO43v8BXKq9Z7QdAGc/VGrRD61w8gN9g/6jF9A4L1pbUgBLCffi0w9VsXfTOij5x8iTyFvg==}
     dev: true
 
   /lower-case@1.1.4:
@@ -1102,6 +1093,11 @@ packages:
 
   /luxon@3.2.1:
     resolution: {integrity: sha512-QrwPArQCNLAKGO/C+ZIilgIuDnEnKx5QYODdDtbFaxzsbZcc/a7WFq7MhsVYgRlwawLtvOUESTlfJ+hc/USqPg==}
+    engines: {node: '>=12'}
+    dev: true
+
+  /luxon@3.4.3:
+    resolution: {integrity: sha512-tFWBiv3h7z+T/tDaoxA8rqTxy1CHV6gHS//QdaH4pulbq/JuBSGgQspQQqcgnwdAx6pNI7cmvz5Sv/addzHmUg==}
     engines: {node: '>=12'}
     dev: true
 
