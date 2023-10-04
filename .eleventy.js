@@ -103,6 +103,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets/img"); // don't process the image folder
   eleventyConfig.addPassthroughCopy("admin/"); // don't process the CMS folder
 
+  eleventyConfig.addPassthroughCopy("css"); // Copy the 'css' directory to the output
+
   
   const development = !!process.env.DEVELOPMENT  
   const middleware =  development ? [

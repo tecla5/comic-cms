@@ -10,12 +10,4 @@ eleventyNavigation:
 ---
 
 
-about:
-
-Powered by [Eleventy](https://www.11ty.dev), [Sveltia CMS](https://github.com/sveltia/sveltia-cms), and with automatic deployment to [Netlify](https://www.netlify.com).
-
-[Login to Sveltia CMS with GitHub](/admin/) (requires repo push access)
-
-[project repo]({{ pkg.repository.url }}) on GitHub.
-deploy:
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/tecla5/comic-cms)
+welcome!

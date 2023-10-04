@@ -6,6 +6,7 @@
   <meta name="description" content="{{ description or eleventyComputed.description or settings.description }}">
   {% set css %}
     {% include "assets/css/inline.css" %}
+    {% include "assets/css/pico.min.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
   {# Uncomment below if you want to include minified inline JS #}
