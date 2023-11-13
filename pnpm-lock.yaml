@@ -24,8 +24,8 @@ devDependencies:
     specifier: ^4.1.0
     version: 4.1.0
   luxon:
-    specifier: ^3.2.1
-    version: 3.2.1
+    specifier: ^3.4.4
+    version: 3.4.4
   netlify-plugin-cache:
     specifier: ^1.0.3
     version: 1.0.3
@@ -130,7 +130,7 @@ packages:
       lodash.chunk: 4.2.0
       lodash.get: 4.4.2
       lodash.set: 4.3.2
-      luxon: 3.2.1
+      luxon: 3.4.4
       markdown-it: 13.0.1
       micromatch: 4.0.5
       minimist: 1.2.8
@@ -1100,8 +1100,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /luxon@3.2.1:
-    resolution: {integrity: sha512-QrwPArQCNLAKGO/C+ZIilgIuDnEnKx5QYODdDtbFaxzsbZcc/a7WFq7MhsVYgRlwawLtvOUESTlfJ+hc/USqPg==}
+  /luxon@3.4.4:
+    resolution: {integrity: sha512-zobTr7akeGHnv7eBOXcRgMeCP6+uyYsczwmeRCauvpvaAltgNyTbLH/+VaEAPUeWBT+1GuNmz4wC/6jtQzbbVA==}
     engines: {node: '>=12'}
     dev: true
 
